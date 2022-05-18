@@ -4,7 +4,7 @@
   "description": "Holi! ",
   "main": "index.js",
   "scripts": {
-    "vercel-build":"npm run build",
+    "vercel-build": "npm run build",
     "lint": "standard",
     "dev": "webpack-dev-server",
     "build": "webpack",
@@ -27,14 +27,18 @@
   },
   "dependencies": {
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.3.1",
+    "styled-components": "^5.3.5"
   },
   "standard": {
-      "ignore": [
-          "/api/**"
-      ]
+    "ignore": [
+      "/api/**"
+    ]
   },
   "eslintConfig": {
-      "extends": ["./node_modules/standard/eslintrc.json"]
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
